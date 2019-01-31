@@ -2,4 +2,7 @@ osx_image: xcode10.1
 language: objective-c
 xcode_project: SwiftShot.xcodeproj
 xcode_scheme: SwiftShotTests
-xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
+xcode_destination:
+ - platform=iOS Simulator,OS=12.1,name=iPhone 6s
+ - platform=iOS Simulator,OS=12.1,name=iPhone Xs
+ - platform=iOS Simulator,OS=12.1,name=iPad Pro (11-inch)
